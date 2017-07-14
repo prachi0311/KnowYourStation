@@ -34,6 +34,21 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <View
+        android:layout_marginTop="50dp"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <EditText
+        android:id="@+id/pnrstatus"
+        android:hint="check pnr status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_gravity="center"
+        android:text="check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 
 </LinearLayout>
